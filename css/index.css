@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+}
+
+#arith-num-func-container {
+    width: 600px;
+    margin: 100px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+
+#viewport-div {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid black;
+    text-align: justify;
+    overflow: auto;
+}
+
+#viewport-para {
+    margin: 0px 0px 0px 40px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+#arith-num-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#arith-grid-container {
+    width: 190px;
+    height: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arith-grid-item {
+    width: 70px;
+    height: 60px;
+    margin: 0px;
+}
+
+#num-item-container {
+    width: 270px;
+    height: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.num-item {
+    width: 70px;
+    height: 60px;
+    margin: 0px;
+}
+
+#func-grid-container {
+    width: 481px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.func-grid-item {
+    width: 140px;
+    height: 60px;
+    margin: 0px;
+}
+
+button {
+    font-size: 30px;
+    font-weight: bolder;
+}
